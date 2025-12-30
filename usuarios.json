@@ -1,0 +1,184 @@
+[
+{
+  "model": "viewset_spotify.usuarios",
+  "pk": 1,
+  "fields": {
+    "nombre": "Carlo",
+    "apellido": "Lacalle",
+    "edad": 44,
+    "email": "carlo@python.com"
+  }
+},
+{
+  "model": "viewset_spotify.usuarios",
+  "pk": 2,
+  "fields": {
+    "nombre": "Sara",
+    "apellido": "Alegre",
+    "edad": 42,
+    "email": "sara@python.com"
+  }
+},
+{
+  "model": "viewset_spotify.usuarios",
+  "pk": 4,
+  "fields": {
+    "nombre": "Iria",
+    "apellido": "Garreta",
+    "edad": 44,
+    "email": "iria@python.com"
+  }
+},
+{
+  "model": "viewset_spotify.artistas",
+  "pk": 1,
+  "fields": {
+    "usuario": 1,
+    "artistname": "Infant Annihilator"
+  }
+},
+{
+  "model": "viewset_spotify.artistas",
+  "pk": 2,
+  "fields": {
+    "usuario": 1,
+    "artistname": "The Mars Volta"
+  }
+},
+{
+  "model": "viewset_spotify.artistas",
+  "pk": 3,
+  "fields": {
+    "usuario": 1,
+    "artistname": "Rancid"
+  }
+},
+{
+  "model": "viewset_spotify.artistas",
+  "pk": 4,
+  "fields": {
+    "usuario": 1,
+    "artistname": "Neurosis"
+  }
+},
+{
+  "model": "viewset_spotify.artistas",
+  "pk": 5,
+  "fields": {
+    "usuario": 2,
+    "artistname": "Queens of the Stone Age"
+  }
+},
+{
+  "model": "viewset_spotify.artistas",
+  "pk": 6,
+  "fields": {
+    "usuario": 2,
+    "artistname": "Asian Dub Foundation"
+  }
+},
+{
+  "model": "viewset_spotify.artistas",
+  "pk": 7,
+  "fields": {
+    "usuario": 2,
+    "artistname": "The Mars Volta"
+  }
+},
+{
+  "model": "viewset_spotify.artistas",
+  "pk": 8,
+  "fields": {
+    "usuario": 2,
+    "artistname": "Sister Rosetta Tharpe"
+  }
+},
+{
+  "model": "viewset_spotify.artistas",
+  "pk": 9,
+  "fields": {
+    "usuario": 2,
+    "artistname": "Sumac"
+  }
+},
+{
+  "model": "viewset_spotify.artistas",
+  "pk": 10,
+  "fields": {
+    "usuario": 1,
+    "artistname": "Sumac"
+  }
+},
+{
+  "model": "viewset_spotify.discos",
+  "pk": 1,
+  "fields": {
+    "usuario": 1,
+    "albumname": "Deloused in the Comatorium",
+    "artistname": "The Mars Volta"
+  }
+},
+{
+  "model": "viewset_spotify.discos",
+  "pk": 2,
+  "fields": {
+    "usuario": 1,
+    "albumname": "Lateralus",
+    "artistname": "TOOL"
+  }
+},
+{
+  "model": "viewset_spotify.discos",
+  "pk": 3,
+  "fields": {
+    "usuario": 1,
+    "albumname": "Pork Soda",
+    "artistname": "Primus"
+  }
+},
+{
+  "model": "viewset_spotify.discos",
+  "pk": 9,
+  "fields": {
+    "usuario": 1,
+    "albumname": "Mr. Bungle",
+    "artistname": "Mr. Bungle"
+  }
+},
+{
+  "model": "viewset_spotify.canciones",
+  "pk": 1,
+  "fields": {
+    "usuario": 1,
+    "songtitle": "Three Bastards",
+    "artistname": "Infant Annihilator"
+  }
+},
+{
+  "model": "viewset_spotify.canciones",
+  "pk": 2,
+  "fields": {
+    "usuario": 1,
+    "songtitle": "Cicatriz Esp",
+    "artistname": "The Mars Volta"
+  }
+},
+{
+  "model": "viewset_spotify.canciones",
+  "pk": 3,
+  "fields": {
+    "usuario": 1,
+    "songtitle": "A Determinism of Morality",
+    "artistname": "Rosetta"
+  }
+},
+{
+  "model": "viewset_spotify.canciones",
+  "pk": 4,
+  "fields": {
+    "usuario": 1,
+    "songtitle": "Disasterpiece",
+    "artistname": "Slipknot"
+  }
+}
+]
